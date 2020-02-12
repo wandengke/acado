@@ -77,6 +77,11 @@ ACADO_GENERATE_COMPILE(
 	pendulum_dae_nmpc_test.cpp
 )
 
+ACADO_GENERATE_COMPILE(
+	code_generation_generator
+	generator_export
+	generator_test.cpp
+)
 ################################################################################
 #
 # Closed-loop Simulink example
